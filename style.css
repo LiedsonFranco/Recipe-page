@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Young_Serif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: hsl(330, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-family: Outfit;
+}
+main{
+    background-color: #FFFFFF;
+    width: max(45vw, 300px);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+h1,h2,h3{
+    font-family: Young_Serif;
+}
+h2{
+    color: #7E4736;
+}
+p{
+    font-size: 16px;
+}
+li{
+    margin-left: 30px;
+    padding: 5px;
+}
+table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+th{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+th:last-child{
+    border-bottom: none;
+}
+tr{
+    display: block;
+}
+thead{
+    color: hsl(30, 18%, 87%);
+}
+tbody{
+    color: hsl(14, 45%, 36%);
+}
+
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+hr{
+    border: 1px solid hsl(30, 18%, 87%);
+}
+.img-container{
+    width: 100%;
+}
+.img-container img{
+    width: inherit;
+    border-radius: 10px;
+}
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.prep h3{
+    color: hsl(332, 51%, 32%);
+    font-weight: 800;
+}
