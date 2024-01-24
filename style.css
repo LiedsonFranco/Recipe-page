@@ -43,16 +43,14 @@ table{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-th{
-    display: block;
-    padding: 10px;
-    border-bottom: 1px solid hsl(30, 18%, 87%);
-}
-th:last-child{
-    border-bottom: none;
-}
 tr{
     display: block;
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+tr:last-child{
+    border-bottom: none;
 }
 thead{
     color: hsl(30, 18%, 87%);
